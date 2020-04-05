@@ -1,0 +1,54 @@
+/* selektor znacznika  */
+
+p {
+    
+    color: gray;
+
+
+}
+
+/* selektor klasy */
+
+.list-item {
+    color: red;
+}
+
+/* selectr id  */
+
+#about {    
+    background-color: pink }
+
+    /* /selektory potomstwa  */
+
+    #about p {
+color: greenyellow;
+
+    }
+#about > p {
+    color: blue;
+}
+
+/* selektory rodzeństwa  */
+
+.first + li {
+color: orange;
+
+}
+
+.item ~ li { 
+color: peru;
+
+}
+
+
+/* selektor iniwersalny - uzywamy do boxsizinig*/
+
+*{
+
+    font-size: 1.5em;
+}
+
+
+/* selektor łaczony */
+
+ul.list {background-color: yellow;}

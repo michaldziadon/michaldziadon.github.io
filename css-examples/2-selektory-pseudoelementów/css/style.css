@@ -1,0 +1,12 @@
+h1::before {
+    content: "*";
+
+}
+
+/* spacja oznacza wszytskie elementy wewnatrz - w selektrorach ma to znaczenie */
+
+h1::after {
+content: "*";
+font-size: 30px;
+
+}

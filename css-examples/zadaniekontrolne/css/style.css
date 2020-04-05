@@ -1,0 +1,92 @@
+/* form {
+    background-color: #213b50;
+    color: #fff;
+    border: none;
+  }
+  
+  input[type], select, textarea {
+      background-color: #2b4a64;
+      display: block;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: inline;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select[name="city"] {
+    height: 22px;
+    width: 200px;
+  }
+  
+  textarea {
+    height: 150px;
+    width: 300px;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(8, 117, 62);
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    background-color: #4e708c;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(77, 223, 150);
+  } */
+
+  /* tutaj kolor to litery */
+  form {
+      background-color: #213b50;
+      color: #fff;
+      /* rozpycha o 20 */
+      padding: 20px; 
+
+  }
+/* textarea - wpisujemy znacznik */
+input, select, textarea {
+background-color: #2b4a64;
+color: #fff;
+border: 1px solid #2b4a64
+
+
+}
+
+/* kolory aktywnego pola */
+input:focus, select:focus, text:focus {
+background-color: #4e708c;
+border: 1px solid #fff
+
+}
+
+/* etykiety blokowe tutaj wszystko idzie liniowe , a chcemu aby mezczyzna i kobieta byly blokowe, mozna slapac za czesc wspolna "male" i agreemnet */
+
+label {
+display: block;
+
+}
+
+label[for*="male"]
+label[for*="agreement"] {
+display: inline;
+}
+
+input[type="submit"]{
+    background-color: green
+    ;
+
+}
+
+/* rozpychanie od srodka - padding */
+
+

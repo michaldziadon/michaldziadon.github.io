@@ -1,0 +1,23 @@
+#main-heading {
+color: skyblue;
+
+}
+
+
+.heading {
+color: sienna !important;
+}
+
+
+h1 {
+color: green;
+
+
+}
+
+* {
+color: red;
+
+}
+
+/* najwazniejszy jest # - patrz do strony s prezentacji str 11 */

@@ -1,0 +1,11 @@
+
+
+input[type] {
+background-color: tomato;
+
+
+}
+
+input[type="text"] {
+    background-color: violet;
+}

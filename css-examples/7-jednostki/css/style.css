@@ -1,0 +1,27 @@
+.container div  {
+height: 50px;
+background-color: chartreuse;
+margin-bottom: 20px;
+}
+
+.container {
+font-size: 30px;
+width: 600px;
+}
+
+.px {
+    width: 400px;
+}
+.procenty {
+    width: 50%;
+}
+.em {
+width: 20em;
+
+}
+
+.viewport {
+
+width: 40vw;
+
+}

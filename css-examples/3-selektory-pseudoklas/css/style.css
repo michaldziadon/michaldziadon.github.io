@@ -1,0 +1,74 @@
+
+button {
+background-color: orange;
+color: #fff;
+border: 2px solid #00f;
+
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.text-input {
+    background-color: tomato;
+    border: green 2px solid;
+}
+
+.text-input:hover {
+background-color: blanchedalmond;
+
+}
+
+.text-input:focus {
+border: 2px solid black;
+
+
+}
+
+
+
+/* button {
+    background-color: orange;
+    color: white;
+    border: 2px dotted blue;
+    width: 100px;
+    height: 50px;
+}
+button:hover {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    color: red;
+    border: 5px solid pink;
+} */
+
+
+
+
+.list-item:first-child {
+color: brown;
+
+}
+
+.list-item:last-child {
+    color: cadetblue;
+}
+
+
+.list-item:nth-of-type(6) {
+    background-color: lawngreen;
+}
+
+/* co trzeci */
+.list-item:nth-of-type(3n) {
+    background-color: pink;
+}
+
+section p:nth-child(2) {
+background-color: yellow;
+
+}
+
+
+
