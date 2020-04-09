@@ -12,6 +12,7 @@ width: 600px;
 .px {
     width: 400px;
 }
+/* najczesniej sie uzywa aby bylo responsywne */
 .procenty {
     width: 50%;
 }
@@ -19,7 +20,7 @@ width: 600px;
 width: 20em;
 
 }
-
+/* viewoirt nie interesuje rodzic */
 .viewport {
 
 width: 40vw;

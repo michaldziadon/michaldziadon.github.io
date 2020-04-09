@@ -41,7 +41,7 @@ color: peru;
 }
 
 
-/* selektor iniwersalny - uzywamy do boxsizinig*/
+/* selektor uniwersalny - uzywamy do boxsizinig*/
 
 *{
 
@@ -52,3 +52,8 @@ color: peru;
 /* selektor łaczony */
 
 ul.list {background-color: yellow;}
+
+/* /ponizej Wszystkie znaczniki a z klasą link, które są elementami potomnymi paragrafów (bez względu na poziom zagnieżdżenia). A paragrafy są bezpośrednimi elementami potomnymi elementów, które mają równocześnie klasę item i klasę first-item*/
+
+.item.first-item > p a.link {color: tomato;}
+

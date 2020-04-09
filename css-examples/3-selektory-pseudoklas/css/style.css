@@ -60,11 +60,12 @@ color: brown;
     background-color: lawngreen;
 }
 
-/* co trzeci */
+/* co trzeci, :nth-of-type jest bardziej praktyczniejsze bo uderzamy w sendo */
 .list-item:nth-of-type(3n) {
     background-color: pink;
 }
 
+/* znajdz drugie dziecko ktore jest paragrafen, dlatego on tutaj zaznacza na zółto pierwszy */
 section p:nth-child(2) {
 background-color: yellow;
 

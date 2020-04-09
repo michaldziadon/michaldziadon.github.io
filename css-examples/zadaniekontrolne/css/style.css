@@ -46,7 +46,7 @@
   } */
 
   /* tutaj kolor to litery */
-  form {
+form {
       background-color: #213b50;
       color: #fff;
       /* rozpycha o 20 */
@@ -87,6 +87,66 @@ input[type="submit"]{
 
 }
 
+input[type="submit"]{
+
+
+}
+
 /* rozpychanie od srodka - padding */
 
 
+
+
+/* rozwiazanie Lukasza */
+
+
+/* form {
+    background-color: #213b50;
+    color: #fff;
+    padding: 20px;
+}
+
+input,
+select, 
+textarea {
+    background-color: #2b4a64;
+    color: #fff;
+    border: 1px solid #2b4a64;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+input:focus,
+select:focus, 
+textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #fff;
+}
+
+label {
+    display: block;
+}
+
+label[for*="male"],
+label[for="agreement"] {
+    display: inline;
+}
+
+
+input[type="submit"] {
+    background-color: #1ac056;
+    padding: 10px 20px;
+    width: auto;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #46e881;
+} */
