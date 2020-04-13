@@ -1,0 +1,33 @@
+.czerwony {
+background-color: red;
+height: 100px;
+width: 100px;
+float: left;
+}
+
+.zielony {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+        float: left;
+    }
+
+.zółty {
+background-color: yellow;
+        height: 100px;
+        width: 100px;
+        float: left;
+        }
+
+
+.niebieski {
+       background-color: blue;
+            height: 100px;
+            width: 100px;
+            float: left;
+            }
+
+
+
+            
+
