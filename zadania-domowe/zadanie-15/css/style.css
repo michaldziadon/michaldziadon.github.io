@@ -47,6 +47,14 @@ background-color: yellow;
     border: 2px solid darkkhaki;
 }
 
+.submit {
+    
+    background-color: crimson;
+    color: green;
+    height: 100px;
+    width: 100px;
+}
+
 
             
 
