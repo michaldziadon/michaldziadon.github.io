@@ -1,0 +1,16 @@
+body { 
+    background-color: gray;
+}
+
+h1 {
+color: white;
+}
+
+.kwadrat {
+
+height: 100px;
+width: 100px;
+background-color: orange;
+margin-bottom: 15px;
+padding: 1em;
+}
