@@ -1,0 +1,21 @@
+body {
+background: orange;
+}
+h1 {
+color: blue;
+font-size: 25px;
+padding: 20px;
+}
+
+.przykładowytekst:hover {
+color: papayawhip;
+
+}
+p {
+color: white;
+padding: 25px;
+}
+p:last-child {
+color: black;
+padding: 25px;
+}
