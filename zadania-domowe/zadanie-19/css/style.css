@@ -1,0 +1,38 @@
+body, html {
+background-color: coral;
+
+}
+
+div {
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.pierwszykwadrat {
+height: 100px;
+width: 100px;
+background-color: black;
+margin-bottom: 5px;
+}
+
+.drugikwadrat {
+height: 100px;
+width: 100px;
+background-color: rgba(0, 0, 0, 0.7);
+margin-bottom: 5px;
+    }
+
+.trzecikwadrat {
+height: 100px;
+width: 100px;
+background-color: rgba(0, 0, 0, 0.5);
+margin-bottom: 5px;      
+        }
+.czwartykwadrat {
+height: 100px;
+width: 100px;
+background-color: rgba(0, 0, 0, 0.2);
+
+
+}
