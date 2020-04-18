@@ -1,0 +1,31 @@
+.box    {
+height: 300px;
+width: 200px;
+background-color: grey;
+/* co ma sie zmieniac - tutaj width badz all */
+transition-property: all;
+transition-duration: 1s;
+/* nie przyspiesza */
+transition-timing-function: linear;
+/* tutaj zmieni na lapke ze strzalki */
+transition-delay: 1s;
+cursor: pointer;
+}
+
+.box:hover {
+width: 400px;
+background-color: hotpink;
+}
+
+a {
+
+color: khaki;
+font-size: 1.2em;
+transition: all .3s;
+}
+
+a:hover {
+
+    color: olivedrab;
+}
+

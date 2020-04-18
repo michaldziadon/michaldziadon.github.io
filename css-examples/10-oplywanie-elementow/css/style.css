@@ -1,0 +1,14 @@
+img {
+/* zmniejszanie obrazka */
+    width: 100px;
+    /* oplywanie */
+    float: left;
+}
+/* tutaj ostatni tekst  */
+.clear {
+clear: both
+
+}
+
+
+

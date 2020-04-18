@@ -1,0 +1,30 @@
+
+
+/* tutaj box sizing dla wszystkich elemetow bedzie układ
+obok blokow obok
+
+https://necolas.github.io/normalize.css/
+tutaj jest reset styli
+
+*/
+* {
+box-sizing: border-box;
+}
+
+
+body {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+p {
+border: 10px solid red;
+padding: 15px;
+margin: auto;
+width: 50%;
+box-sizing: border-box;
+
+
+}

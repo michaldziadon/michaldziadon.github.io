@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #222;
+	color: #eee;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+/* tutaj trzeba zasta[pisc procentami */
+/* jezeli tutaj bedzie width 100% - to mobile first  */
+#gallery {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+/* tutaj tez musimy zmienic na procenty */
+/* jezeli tutaj bedzie width 100% - to mobile first  */
+
+figure {
+	display: inline-block;
+	width: 33%;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+figure figcaption {
+	text-align: center;
+}
+
+figure img{
+	width: 100%;
+	border: 2px solid #444;
+}
+/* tutaj zrobilismy responsywne  */
+@media (max-width: 992px) {
+figure {
+	width: 49%;
+}
+
+}
+
+@media (max-width: 768px) {
+	#gallery {
+		width: 100%;
+	}
+	}
+
+@media (max-width: 480px) {
+	figure {
+		width: 100%;
+	}
+	}
+
+
+
+
+
