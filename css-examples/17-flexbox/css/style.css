@@ -1,0 +1,98 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
+section {
+    background-color: gray;
+    /* wylanczamy aby uzywac flexa */
+    /* width: 600px; */
+    height: 600px;
+    /* ta funkcja dicplay  */
+    display: flex;
+/* flex direction na culmny i 15% jest liczone z szerokosci, 
+row jest domyślny, ale moze byc row-reverse */
+    flex-direction: row;
+    /* tutaj zawsze trzeba to wprowadzic aby 
+    elementy sie zawijaly */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+/* tutaj sie wtedy skupia w srodku - potrzebujemy 
+height articel*/
+/* align-content: center; */
+/* align-items: center; */
+
+}
+
+article {
+
+    border: 3px solid red;
+    background-color: orange;
+    color: white;
+    flex-basis: 15%;
+/* to jest zrobione na potrzeby tego article nizej */
+/* tutaj height jest potrzebne */
+    /* height: 100px;  */
+    /* tutaj defoultowo procentowo  */
+    /* height: 15%; */
+
+
+}   
+/* podstawa w robieniu ukladów rzedowo-liniowych - u */
+@media (max-width: 992px) {
+article {
+    flex-basis: 50%;
+}
+}
+
+@media (max-width: 576px) {
+    article {
+        flex-basis: 100%;
+    }
+}
+/* flex grow wypelnia cala przestrzen */
+article:nth-of-type(1) {
+flex-grow: 1;
+/* flex shrink */
+flex-shrink: 1;
+
+}
+
+article:nth-of-type(2) {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+article:nth-of-type(3) {
+    flex-grow: 2;
+    flex-shrink: 2;
+
+
+/* mozemy wyciagnac jedne */
+/* article:nth-of-type(3) {
+    align-self: flex-start; */
+
+}
+/* tym "order" zmieniamy kolejnosc */
+/* article:nth-of-type(1){
+    order: 5;
+}
+
+article:nth-of-type(2){
+    order: 6;
+}
+article:nth-of-type(3){
+    order: 4;
+}
+article:nth-of-type(4){
+    order: 3;
+}
+article:nth-of-type(5){
+    order: 1;
+}
+
+article:nth-of-type(6){
+    order: 2;
+} */
+

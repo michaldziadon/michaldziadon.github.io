@@ -1,0 +1,80 @@
+div {
+border: 3px solid red;
+width: 150px;
+height: 130px;
+margin-bottom: 50px;
+
+}
+
+img {
+transition: all 1s;
+}
+
+.rotate img:hover {
+transform: rotate(180deg);
+}
+/* mozemy rotowac 
+po Y lub X - jezeli damy 180* obraca fajnie */
+
+.translate {
+    width: 600px;
+    height: 600px;
+    position: relative;
+
+}
+
+.translate img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.scale {
+
+    overflow: hidden;
+}
+.scale img:hover {
+    transform: scale(1.5);
+}
+/* ndajemy nazwe mp custom... */
+@keyframes custom-rotate {
+    0% { 
+        width: 100%;
+        transform: rotate(0deg);
+}
+
+    25% { 
+        width: 50%;
+        transform: rotate(180deg);
+    
+}
+    50% { 
+        
+        width: 100%;
+        transform: rotate(-720deg);
+    
+}
+    75% { 
+        width: 50%;
+        transform: rotate(180deg);
+
+}
+
+    100% { 
+        /* tutaj sie zmniejsza jezeli jest width */
+        width: 100%;
+        transform: rotate(0deg);
+}
+}
+
+.animate img {
+animation-name: custom-rotate;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+}
+
+
+
+
