@@ -63,11 +63,18 @@ header h3 {
     height: 36px;
     border:2px solid white;
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50px);
     border-radius: 30%;
     font-size: 2rem;
     text-align: center;
+}
+
+
+@media (orientation: portrait) {
+    h3 span::after
+
+
 }
 
