@@ -31,7 +31,7 @@ header img {
     bottom: 0;
     right: 0;
     height: 70vh;
-
+    
 }
 
 header nav {
@@ -59,12 +59,15 @@ header h3 {
 }
 
 #arrow {
-    width: 96px;
-    height: 96px;
-    border:5px solid white;
+    width: 36px;
+    height: 36px;
+    border:2px solid white;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     transform: translate(-50px);
-    border-radius: 50%;
+    border-radius: 30%;
+    font-size: 2rem;
+    text-align: center;
 }
+
