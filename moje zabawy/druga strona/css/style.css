@@ -90,18 +90,26 @@ header h3 {
 
 .fa-chevron-down {
     animation: arrow 1.6s infinite linear;
-
 }
 
-
-@media (min-width: 530px) {
+@media (min-width: 576px) {
     header h3 {
         font-size: 4rem;
 
     }
+}
+@media (min-width: 768px) {
+    
+}
 
+@media (min-width: 992px) {
 
 }
+
+@media (min-width: 1200px) {
+
+}
+
 
 
 @keyframes arrow {
