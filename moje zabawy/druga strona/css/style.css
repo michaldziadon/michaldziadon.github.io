@@ -60,7 +60,7 @@ header h1 {
 }
 
 header h3 {
-    font-size: 2rem;
+    font-size: 3rem;
 
 }
 
@@ -73,7 +73,7 @@ header h3 {
     left: 50%;
     transform: translate(-50px);
     border-radius: 30%;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     text-shadow: 0px 10px 0 white, 0px 20px 0 white;
     overflow: hidden;
@@ -94,16 +94,20 @@ header h3 {
 }
 
 
-@media (orientation: portrait) {
-    h3 span::after
+@media (min-width: 530px) {
+    header h3 {
+        font-size: 4rem;
+
+    }
 
 
 }
 
-@keyframes arrow  {
-    0% {transform: translateY(-80px);}
-    50% {transform: translateY(0px) ;}
-    100% {transform: translateY(80px);}
+
+@keyframes arrow {
+    0% {transform: translateY(-60px);}
+    50% {transform: translateY(0px);}
+    100% {transform: translateY(60px);}
 }
 
 
