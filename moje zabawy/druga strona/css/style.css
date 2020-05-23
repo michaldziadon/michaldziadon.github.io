@@ -36,6 +36,7 @@ main img  {
     bottom: 0;
     max-width: 50%;
     height: auto;
+    z-index: 1;
 }
 
 .warsztat {
