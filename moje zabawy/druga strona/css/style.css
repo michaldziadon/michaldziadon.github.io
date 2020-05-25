@@ -33,7 +33,7 @@ main    {
 main img  {
     position: absolute;
     right: 25%;
-    bottom: 0;
+    bottom: 20px;
     max-width: 50%;
     height: auto;
 }
@@ -44,6 +44,14 @@ main img  {
     font-size: 23px;
 }
 
+header hr {
+    width: 290px;
+    border: 1px solid white;
+    border-bottom: 0;
+    text-decoration: none;
+
+
+}
 main hr {
     width: 300px;
     border: 1px solid red;
@@ -110,9 +118,9 @@ header h3 {
 }
 
 #arrow:hover {
-    text-shadow: 0px 10px 0 blue, 0px 20px 0 blue;
-    color: blue;
-    border-color: blue;
+    text-shadow: 0px 10px 0 yellow, 0px 20px 0 yellow;
+    color: yellow;
+    border-color: yellow;
     cursor: pointer;
 }
 
