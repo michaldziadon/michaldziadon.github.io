@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- komentarz widoczny z dev toold , niewidoczny na stronie -->
+    <h1>Tytuł</h1>
+    <!-- linki zewnetrze -->
+
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="#kontakt">Link 2</a>
+    <a href="">Link 3</a>
+    <a href="">Link 4</a>
+    <a href="mailto:michal.dziadon@poczta.fm">Poczta</a>
+    <a href="tel:+48698615261">Telefon</a>
+    
+   <div>
+        <table>
+            <thead>
+                <tr>
+
+                    <th>Lista Płac</th>
+                    <th>Cena</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                 <tr>
+                    <td>jabłko</td>
+                    <td>2.49</td>
+                 </tr>  
+                 <tr>
+                    <td>gruszka</td>
+                    <td>2.49</td>
+                 </tr>  
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+   </div>
+
+<form action="https://formspree.io/xoqnjqwk" method="post" name="">
+    <label for="Imie">Imie</label>
+    <input type="text" name="name" id="Imie" required placeholder="Wprowadz Imie">
+    <label for="Email">Email</label>
+    <input type="email" name="email" id="Email">
+    <label for="Number">Numerek</label>
+    <input type="number" name="number" id="Number">
+    <label><input type="checkbox" name="agreement" id=""> Co tam </label>
+    <p>Wybierze płeć</p>
+    <!-- aby zgrupowac ze soba radio , atrybut name musi byc taki sam -->
+    <label><input type="radio" name="sex" id="">Meżczyzna</label><br>
+    <label><input type="radio" name="sex" id="">Kobieta</label>
+    
+
+    <br>
+    
+    <label for="Msg">Wiadomosc</label><br>
+    <textarea name="" id="Msg" cols="30" rows="10" placeholder="" maxlength="5"></textarea>
+    <br>
+    <label for="city">Wybierz Miasto</label>
+    <select name="city" id="city">
+        <option value="cracow">Kraków</option>
+        <option value="warsaw">Warszawa</option>
+        <option value="pozna">Poznań</option>
+    </select>
+    <br><br>
+        <label for="submit"></label>
+        <input type="submit" value="Napisz do mnie"><br>
+   </form>
+
+    <footer id="kontakt"><address>
+        mg <br>
+        marko 
+    </address></footer>
+</body>
+</html>
