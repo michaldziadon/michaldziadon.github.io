@@ -42,11 +42,11 @@ main img  {
 .warsztat {
     text-align: center;
     padding: 30px;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 header hr {
-    width: 290px;
+    width: 70px;
     border: 1px solid white;
     border-bottom: 0;
     text-decoration: none;
@@ -71,7 +71,7 @@ main div a {
 header img {
 
     position:absolute;
-    bottom: 0;
+    bottom: 5px;
     right: 0;
     height: 60vh;
     
@@ -92,7 +92,7 @@ header hgroup {
 }
 
 header h1 {
-    font-size: 5rem;
+    font-size: 2rem;
 
 }
 
@@ -102,11 +102,11 @@ header h3 {
 }
 
 #arrow {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border:2px solid white;
     position: absolute;
-    top: 5%;
+    top: 3%;
     right: 0.3%;
     transform: translate(-50px);
     border-radius: 30%;
@@ -145,7 +145,7 @@ header h3 {
 @media (min-width: 576px) {
     
 
-    }
+}
 @media (min-width: 768px) {
 
 }
@@ -156,6 +156,8 @@ header h3 {
         } 
     header h3 {font-size: 7rem;
     }
+    header hr { 
+        width: 350px;}
 }
 @media (min-width: 1200px) {
 
