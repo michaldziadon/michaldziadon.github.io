@@ -1,0 +1,92 @@
+* {
+    color: red;
+
+
+}
+
+/* selektro znacznika */
+
+p {
+    color: green;
+
+}
+
+/* selektro klasy */
+.container {
+
+    background-color: greenyellow;
+
+}
+
+/* selektor indentyfikatora */
+
+#main-title {
+
+    font-size: 40px;
+
+}
+
+/* selektor laczony */
+
+div.child {
+    background-color: greenyellow;
+    color: honeydew;
+
+}
+/* selektor bezposredni */
+
+.child p {
+    font-size: 45px;
+    color: blue;
+
+}
+
+.child > p {
+    font-size: 15px;
+
+
+}
+
+
+/* selektor rodzienstwa i bezposredniego rodzienstwa */
+
+.child ~ .sibling {
+    background-color: blueviolet;
+
+}
+/* + selektr bezposredniego rodzenstwa  */
+.child + .sibling {
+    background-color: brown;
+
+
+}
+
+/* pseudo elemnt */
+/* punktatory */
+.child p::before {
+
+    content: "1235";
+}
+/* maski */
+.child p::after {
+    content: 'koniec';
+}
+
+/* Pseudo klasy */
+
+.hover:hover {
+    background-color: coral;
+
+}
+/* focus*/
+
+input:focus {
+    border: 3px solid grey;
+
+
+}
+
+
+
+
+
