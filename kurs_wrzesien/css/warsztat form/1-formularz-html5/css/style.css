@@ -1,0 +1,36 @@
+form {
+
+    background-color: #213b50;
+    width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+
+input[type], select, textarea {
+    background-color: #2b4a64;
+    display: block;
+}
+
+input[type="submit"] {
+    background-color: rgb(8, 117, 62);
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    font-weight: 700;
+  }
+
+label {
+    color: white;
+}
+
+input[radio] {
+    display: inline;
+
+}
+
+
+
+
+
+

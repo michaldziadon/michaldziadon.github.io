@@ -1,0 +1,74 @@
+
+.position {
+    position: relative;
+
+}
+
+
+.position div {
+    height: 200px;
+}
+.orange {
+    background-color: orange;
+    /* position: relative; */
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 100px;
+    height:200px;
+}
+.grey {
+    background-color: grey;
+
+}
+
+
+#main-nav {
+    position: sticky;    
+    width: 100%;    
+    left: 0px;   
+    top: 0px;
+    background-color: green;
+
+}
+
+
+.jednostki-miary {
+    font-size: 20px;
+
+
+}
+
+.jednostki-miary div {
+    background-color: orange;
+}
+
+#piksele {
+    width: 400px;
+
+}
+
+#em {
+    width: 50em;
+
+}
+/* rem do html , wiec musi by zdefiniowany html */
+#rem {
+
+    width: 20rem;
+}
+
+#procenty {
+    width: 50%;
+}
+
+#vh {
+    width: 10vh;
+    
+
+}
+
+
+
+
+
