@@ -1,0 +1,19 @@
+.display li {
+    display: inline-block;
+    background-color: rosybrown;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+
+}
+/* obejscie na ominiecie bialych znakow  */
+ul {
+    font-size: 0;
+
+}
+
+li {
+    font-size: 16px;
+
+}

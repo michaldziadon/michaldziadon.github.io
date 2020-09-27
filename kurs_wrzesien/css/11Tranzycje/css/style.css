@@ -1,0 +1,16 @@
+.transition {
+    height: 200px;
+    width: 50%;
+    background-color: royalblue;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition: all 0.2s ease-out;
+    /* mozna dac tylko czas */
+}
+
+.transition:hover {
+    width: 100%;
+    background-color: saddlebrown;
+
+}

@@ -1,0 +1,35 @@
+* {
+    background-color: salmon;
+
+}
+
+
+#predefiniowany {
+    color: orangered;
+
+
+}
+
+#heksadycemalny {
+    color: #38c58f;
+
+
+}
+
+#skrocony {
+    color: #872;
+
+
+
+}
+
+.kolor  {
+    background-color: rgb(255 , 0 , 0);
+
+}
+
+.kolory {
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
