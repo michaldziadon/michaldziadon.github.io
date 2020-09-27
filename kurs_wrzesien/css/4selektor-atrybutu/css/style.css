@@ -108,4 +108,50 @@ ul li:nth-of-type(5) a {
 
 }
 
+/* selektor atrybuty elementy ktore posiadaj ktore posiadaja dany atrybut
+*/
 
+[title] {
+    border: 10px solid green;
+
+
+}
+
+/* selektor atrybutu o okreslonej wartosci */
+
+[title="to jest drugi input"] {
+    border:10px solid black;
+
+} 
+
+/* selektor atrybutu posiadajacy wartosc */
+
+
+[title~="drugi"] {
+    border: 10px solid yellow;
+
+
+}
+
+/* selektor atrybutu posiadajacy grupe znakow
+ */
+
+ input[title*="in"] {
+    border: 10px solid beige;
+
+
+ } 
+
+ /* selektor atrybuty zaczynajacy sie cigiem znakow */
+
+ input[title^="to"] {
+    border: 10px solid orange;
+
+ }
+
+  /* selektor atrybuty konczacy sie cigiem znakow */
+
+  input[title$="szy"] {
+    border: 10px solid black;
+
+ }
