@@ -1,0 +1,27 @@
+*   {
+
+    padding: 10px;
+}
+
+label {
+    display: block;
+}
+form {
+    background-color: blanchedalmond;
+    
+    
+
+}
+
+input {
+    display: block;
+
+}
+
+input[type="radio"]{
+    display: inline;
+
+}
+
+
+
