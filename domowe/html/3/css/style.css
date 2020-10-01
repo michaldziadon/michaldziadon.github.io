@@ -1,0 +1,164 @@
+body {
+    width: 400px;
+    height: 400px;
+    
+}
+.kwadrat:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.kwadrat:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+.kwadrat:nth-child(3) {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+.kwadrat:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+.kwadrat:nth-child(5) {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+.kwadrat:nth-child(6) {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+.kwadrat:nth-child(7) {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+.kwadrat:nth-child(8) {
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.kwadrat:nth-child(9) {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    margin-top: 5px;
+    margin-left: 5px;
+   float: left;
+}
+
+.koło {
+    position: absolute ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    left: 40px;
+    top: 38px;
+}
+
+.zielony {
+    position: absolute;
+    background-color: green;
+    left: 140px;
+    top: 38px;
+
+}
+
+.zolty {
+    position: absolute;
+    background-color: yellow;
+    left: 245px;
+    top: 38px;
+
+}
+
+.niebieski {
+    position: absolute;
+    background-color: blue;
+    left: 245px;
+    top: 145px;
+
+}
+
+.rożowy {
+    position: absolute;
+    background-color: pink;
+    left: 140px;
+    top: 145px;
+
+}
+
+.purpurowy {
+    position: zielony;
+    background-color: purple;
+    left: 40px;
+    top: 145px;
+
+}
+
+.pomaranczowy {
+    position: zielony;
+    background-color: orange;
+    left: 40px;
+    top: 245px;
+
+}
+
+.szary {
+    position: zielony;
+    background-color: grey;
+    left: 140px;
+    top: 245px;
+
+}
+
+.czarny {
+    position: absolute;
+    background-color: black;
+    left: 245px;
+    top: 245px;
+
+}
