@@ -1,0 +1,19 @@
+.background {
+
+    height: 400px;
+    background-color: sandybrown;
+    background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("img/i-4rooms-obrazek-na-plotnie-panda.webp");
+    background-repeat: no-repeat;
+    transition: all 1s;
+    
+}
+
+.background:hover {
+    background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url("img/i-4rooms-obrazek-na-plotnie-panda.webp");
+    
+}
+
+
+
+
+
