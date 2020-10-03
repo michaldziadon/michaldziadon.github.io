@@ -90,14 +90,14 @@ li {
 
 ul {
     list-style-type: none;
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
 }
 
 li a {
     color: white;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 10px;
     transition: all .5s;
     border-radius: 15%;
@@ -107,5 +107,25 @@ li a {
 li a:hover {
     background-color: white;
     color: #007bff;
+    
+}
+
+section {
+    text-align: center;
+
+
+}
+
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-size: 34px;
+
+}
+
+section img {
+    border-radius: 50%;
     
 }
