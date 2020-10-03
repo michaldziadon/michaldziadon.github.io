@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /*zawsze to wlaczyz aby zawijac i dziala flex basis*/
+    flex-direction: row; /* domyslnie */
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+    
+}
+
+.flex-item {
+    flex-basis: 17%;
+    height: 200px;
+    background-color: yellow;
+}
+
+.flex-item:nth-of-type(3) {
+    align-self: flex-start;
+    
+}
+
+.flex-item:nth-of-type(1) {
+    order: 2;
+    flex-grow: 1;
+/*oder zawsze na koniec*/
+}
+
+.flex-item:nth-of-type(2) {
+    order: 5;
+  
+}

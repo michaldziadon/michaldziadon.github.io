@@ -1,0 +1,35 @@
+.transform div{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.transform img {
+    transition: .4s;
+    animation-name: grow;
+    animation-duration: 2s;
+
+}
+
+.transform img:hover {
+  /* 1tutaj obracanie  */
+    /* transform: rotate(360deg); */
+
+      /* 2tutaj przesuwanie  */
+    /* transform: translate(100px, 200px); */
+ /* 3tutaj scalowanie  */
+    transform: scale(1.1);
+ }
+ 
+@keyframes grow {
+
+ 0%, 100% {
+    width: 50%;
+ }
+
+ 50% {
+    width: 100%;
+ }
+
+}
