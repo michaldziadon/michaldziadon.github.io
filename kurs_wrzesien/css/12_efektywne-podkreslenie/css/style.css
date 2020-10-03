@@ -1,0 +1,38 @@
+a {
+    font-size: 40px;
+    color: #464646;
+    text-decoration: none;
+    position: relative;
+}
+/* mozna roboic przez border, albo before after */
+a::before,
+a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: royalblue;
+    position: absolute;
+    /* width: 100%; */
+    width: 0;
+    bottom: -5px;
+    transition: .4s;
+}
+
+a::after {
+    bottom: -5px;
+}
+a::before {
+    top: -5px;  
+}
+
+a:hover::before,
+a:hover::after {
+    width: 100%;
+
+
+}
+
+
+
+
+
