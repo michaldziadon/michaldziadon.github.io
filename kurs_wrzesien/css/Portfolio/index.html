@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -17,31 +19,120 @@
         <a href="#" class="btn">Dowiedz się więcej</a>
     </div>
 </header>
-
-<nav>
+<!-- menu humburger -->
+<nav class="main-nav">
+    <label for="menu">Menu</label>
+    <input type="checkbox" name="" id="menu">
     <ul>
-        <li><a href="#">o mnie</a></li>
-        <li><a href="#">portfolio</a></li>
-        <li><a href="#">kontakt</a></li>
+        <li><a href="#about">o mnie</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#kontakt">kontakt</a></li>
     
     </ul> 
 </nav>
 
 
-<section>
+<section id="about">
 
     <h2>o mnie</h2>
     <hr>
-    <img src="../Portfolio/img/about.jpg" alt="dziewczyna">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusantium, nisi quam molestiae explicabo sint nostrum inventore magnam fugiat quae.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo optio quasi ipsam deserunt sit reiciendis veritatis velit aperiam numquam omnis.</p>
-
-    <a href="" class="btn">moje portfolio</a>
-
-
+    <div class="about">
+        <img src="../Portfolio/img/about.jpg" alt="dziewczyna">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusantium, nisi quam molestiae explicabo sint nostrum inventore magnam fugiat quae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo optio quasi ipsam deserunt sit reiciendis veritatis velit aperiam numquam omnis.</p>
+        <a href="#about" class="btn">moje portfolio</a>
+    </div>
+    
 </section>
 
 
-    
+<section id="portfolio">
+    <h2>portfolio</h2>
+    <hr>
+        <div class="portfolio">
+
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-1.jpg" alt="1">
+                <figcaption>Projekt 1</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-2.jpg" alt="1">
+                <figcaption>Projekt 2</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-3.jpg" alt="3">
+                <figcaption>Projekt 3</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-4.jpg" alt="4">
+                <figcaption>Projekt 4</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-5.jpg" alt="5">
+                <figcaption>Projekt 5</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-6.jpg" alt="6">
+                <figcaption>Projekt 6</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-7.jpg" alt="7">
+                <figcaption>Projekt 7</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-8.jpg" alt="8">
+                <figcaption>Projekt 8</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-9.jpg" alt="9">
+                <figcaption>Projekt 9</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-10.jpg" alt="10">
+                <figcaption>Projekt 10</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-11.jpg" alt="11">
+                <figcaption>Projekt 11</figcaption>
+            </figure>
+            <figure>
+                <img src="../Portfolio/img/portfolio/photo-12.jpg" alt="12">
+                <figcaption>Projekt 12</figcaption>
+            </figure>
+
+
+        </div>
+</section>  
+
+
+<section id="kontakt">
+    <h2>kontakt</h2>
+    <hr>
+
+    <div class="form" id="kontakt">
+        <form action="https://formspree.io/f/xoqnjqwk" method="POST">
+            <input type="text" name="" id="" placeholder="Imię">
+            <input type="email" name="" id="" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea>
+            <input type="submit" value="wyślij wiadomość" class="btn">
+    </div>
+    </form>
+
+</section>
+
+<section id="social">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+</section>
+
+<footer id="footer" class="footer">
+    <p>Copyright &copy; Akademia 108 - Szkoła Programowania</p>
+
+
+
+</footer>
+
 </body>
 </html>

@@ -1,0 +1,21 @@
+@media all and (max-width: 992px) {
+    figure {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    figure {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    input:not([type="submit"]) {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+
+    } 
+}
+
+

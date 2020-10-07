@@ -89,7 +89,7 @@ body {
    float: left;
 }
 
-.koło {
+.kolo {
     position: absolute ;
     width: 50px;
     height: 50px;
@@ -123,7 +123,7 @@ body {
 
 }
 
-.rożowy {
+.rozowy {
     position: absolute;
     background-color: pink;
     left: 140px;
