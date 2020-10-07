@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    
+}
+
+header {
+    text-transform: uppercase;
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+section {
+    text-transform: uppercase;
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    order: 2;
+}
+
+.left {
+    text-transform: uppercase;
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    order: 1;
+    flex-basis: 100px;
+}
+
+.right {
+    text-transform: uppercase;
+    background-color: pink;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    order: 3;
+}
+
+footer {
+    text-transform: uppercase;
+    background-color: rgb(173, 96, 245);
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
