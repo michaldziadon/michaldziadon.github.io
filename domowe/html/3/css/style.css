@@ -3,90 +3,57 @@ body {
     height: 400px;
     
 }
-.kwadrat:nth-child(1) {
+
+.kwadrat {
     width: 100px;
     height: 100px;
-    background-color: aquamarine;
     margin-top: 5px;
     margin-left: 5px;
     float: left;
+
+}
+.kwadrat:nth-child(1) {
+    background-color: aquamarine;
+    
 }
 
 .kwadrat:nth-child(2) {
-    width: 100px;
-    height: 100px;
     background-color: yellow;
-    margin-top: 5px;
-    margin-left: 5px;
-    float: left;
-
+    
 }
 
 .kwadrat:nth-child(3) {
-    width: 100px;
-    height: 100px;
     background-color: blue;
-    margin-top: 5px;
-    margin-left: 5px;
-    float: left;
-
+    
 }
 
 .kwadrat:nth-child(4) {
-    width: 100px;
-    height: 100px;
     background-color: red;
-    margin-top: 5px;
-    margin-left: 5px;
-    float: left;
+   
 
 }
 
 .kwadrat:nth-child(5) {
-    width: 100px;
-    height: 100px;
     background-color: salmon;
-    margin-top: 5px;
-    margin-left: 5px;
-    float: left;
-
+   
 }
 
 .kwadrat:nth-child(6) {
-    width: 100px;
-    height: 100px;
     background-color: antiquewhite;
-    margin-top: 5px;
-    margin-left: 5px;
-    float: left;
-
+    
 }
 
 .kwadrat:nth-child(7) {
-    width: 100px;
-    height: 100px;
     background-color: coral;
-    margin-top: 5px;
-    margin-left: 5px;
-    float: left;
-
+    
 }
 
 .kwadrat:nth-child(8) {
-    width: 100px;
-    height: 100px;
     background-color: lawngreen;
-    margin-top: 5px;
-    margin-left: 5px;
-    float: left;
+    
 }
 .kwadrat:nth-child(9) {
-    width: 100px;
-    height: 100px;
     background-color: violet;
-    margin-top: 5px;
-    margin-left: 5px;
-   float: left;
 }
 
 .kolo {
