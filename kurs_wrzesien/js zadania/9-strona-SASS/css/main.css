@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  padding-top: 10px;
+}
+
+#container .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vh;
+  margin: 0 auto;
+}
+
+#container .dolny {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  width: 30vh;
+}
+
+#container form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #252424;
+  height: 300px;
+  display: flex;
+}
+
+footer p {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+.yellow,
+.green {
+    height: 50px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.btn-custom {
+    color: blue;
+    background-color: wheat;
+    border-color: wheat;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}

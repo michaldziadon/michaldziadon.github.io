@@ -1,0 +1,44 @@
+
+
+
+.yellow , .green {
+    height: 50px;
+
+}
+
+
+.yellow {
+    background-color: yellow;
+
+
+}
+
+.green {
+
+    background-color: green;
+
+}
+
+.h100 {
+    height: 100%;
+
+}
+.red   {
+    background-color: red;
+}
+
+
+.btn-custom {
+
+
+    background-color: hotpink;
+    border-color: lawngreen;
+    color: lightcoral;
+}
+
+.carousel-item img {
+    /* tutaj aby byly sobie aktywne i ladnie wygladaly  */
+    height: 300px;
+    object-fit: cover;
+
+}

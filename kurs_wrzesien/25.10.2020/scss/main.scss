@@ -1,0 +1,65 @@
+@import 'mixins';
+
+
+nav {
+    position: fixed;
+    //musimy zrobic szerokosc
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+
+    ul {    
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+
+        li {
+            padding: 20px;
+
+
+            a {
+                color: #fff;
+                //tutaj musimy
+
+
+                &:hover {
+                    color: red;
+
+
+                }
+
+                &::before {
+                    content: '';
+
+
+                }
+
+
+            }
+
+
+
+        }
+
+
+    }
+
+}
+
+header {
+    @include centerOX;
+
+
+        .squere {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            @include borderRadius(20px);
+            @include flex(flex, wrap, space-between)
+        }
+}
+
