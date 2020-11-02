@@ -1,0 +1,137 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.main-header {
+  background-image: url("../img/background.png");
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-header .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media all and (max-width: 1366px) {
+  .main-header .container {
+    max-width: 980px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .main-header .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+}
+
+.main-header .container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-header .container .top h1 i {
+  color: #ecd407;
+}
+
+.main-header .container .top-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header .container .top-inner p {
+  margin: 0;
+}
+
+.main-header .container .bottom {
+  width: 370px;
+  margin-left: auto;
+  margin-top: 100px;
+}
+
+@media all and (max-width: 768px) {
+  .main-header .container .bottom {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.main-header .container .bottom h2 span {
+  color: #ecd407;
+}
+
+.main-header .container .bottom form {
+  padding: 10px;
+  background-color: #001d8a;
+}
+
+.main-header .container .bottom form input,
+.main-header .container .bottom form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.main-header .container .bottom form input[type="submit"],
+.main-header .container .bottom form textarea[type="submit"] {
+  background-color: #ecd407;
+  width: 50%;
+}
+
+.main-footer {
+  background-color: #292929;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.main-footer .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-footer .container-inner {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+@media all and (max-width: 768px) {
+  .main-footer .container-inner {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+.main-footer .container-inner i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #292929;
+  background-color: #ecd407;
+}
+/*# sourceMappingURL=main.css.map */
